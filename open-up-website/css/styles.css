@@ -1,8 +1,5 @@
 @charset 'UTF-8';
 
-@font-face { font-family: RedHatText; src: url('RedHatText-Regular.ttf'); } 
-@font-face { font-family: RedHatTextBold; src: url('RedHatText-Bold.ttf'); }
-
 html,
 html * {
   box-sizing: border-box;
@@ -25,7 +22,7 @@ section {
 }
 
 p {
-	font-family: RedHatText, "sans-serif";
+	font-family: 'RedHatText', sans-serif;
 	font-size: 2.2em;
 	margin: 0 20px;
 	text-align: justify;
@@ -37,7 +34,7 @@ p {
 }
 
 .label {
-	font-family: RedHatText, "sans-serif";	
+	font-family: 'RedHatText', sans-serif;	
 	font-size: 2.2em;
 	color: #401104;
 	text-align: center;
@@ -48,7 +45,7 @@ p {
 
 .c-title {
 	padding-bottom: 20px;
-	font-family: RedHatTextBold, "sans-serif";	
+	font-family: 'RedHatTextBold', sans-serif;	
 	font-size: 5em;
 }
 
@@ -99,7 +96,7 @@ p {
 }
 
 .ui {
-	font-family: RedHatText, "sans-serif";
+	font-family: 'RedHatText', "sans-serif";
 	color: #401104;
 }
 
@@ -121,7 +118,7 @@ p {
 }
 
 body {
-	font-family: RedHatText, "sans-serif";
+	font-family: 'RedHatText', "sans-serif";
 	font-size: 1vw;
 	background-color: #fff;
 	overflow-x: hidden;
@@ -159,16 +156,6 @@ div {
 	display: none;
 }
 
-.nav-font {
-	font-family: RedHatText, "sans-serif";
-	font-weight: bold;
-	color: #401104;
-	background: none;
-	font-size: 1.5em;
-	text-decoration: none;
-	padding-top: 2em;
-}
-
 iframe {
 	width: inherit;
 	height: 50em;
@@ -201,7 +188,8 @@ iframe {
 
 .section-title1 {
 	mix-blend-mode: hard-light;
-	font-family: RedHatTextBold, "sans-serif";
+	font-family: 'RedHatDisplay', "sans-serif";
+	font-weight: bold;
 	color: #401104;
 	text-align: center;
 	font-size: 75px;
@@ -211,7 +199,8 @@ iframe {
 
 .section-title2 {
 	mix-blend-mode: hard-light;
-	font-family: RedHatTextBold, "sans-serif";
+	font-family: 'RedHatDisplay', "sans-serif";
+	font-weight: medium;
 	color: #401104;
 	text-align: center;
 	font-size: 60px;
