@@ -686,6 +686,7 @@ p.indent9
 /*
 Styles for play.html
 */
+
 .play .coverimage
 {
 	position: fixed;
@@ -703,6 +704,10 @@ Styles for play.html
 	position: fixed;
 }
 
+/****
+The commented out area below with absolute positioning on the game play window was causing the issue of it floating outside its container.
+***/
+/*
 #gameport
 {
 	background: rgba(0,0,0,0.00);
@@ -714,7 +719,7 @@ Styles for play.html
 	right: 0px;
 	top: 0px;
 }
-
+*/
 /*
 Styles for mobile browsers: change to a one-column layout.
 */
