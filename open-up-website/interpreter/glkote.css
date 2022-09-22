@@ -42,12 +42,12 @@
 }
 
 .BufferWindow {
-  overflow: scroll;   /* vertical scrollbar is mandatory */
+  /*overflow: scroll;    vertical scrollbar is mandatory */
   overflow-x: hidden; /* but horizontal scrollbar is forbidden */
   font-family: 'RedHatText', sans-serif;
-  font-size: 15px;
-  line-height: 1.4;
-  padding: 6px 10px 6px 10px;
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 2px 20px;
 }
 
 .BufferLine {
@@ -57,7 +57,7 @@
   background: rgba(0, 0, 0, 0);
   overflow: hidden;
   font-family: 'RedHatText', sans-serif; /* necessary! */
-  font-size: 14px;
+  font-size: 20px;
   padding: 6px 10px 6px 10px;
 }
 
@@ -158,7 +158,7 @@
 }
 
 .BufferWindow .Style_header {
-  font-size: 17px;
+  font-size: 22px;
 }
 
 .Style_subheader {
