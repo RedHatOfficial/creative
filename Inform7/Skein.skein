@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x55d4e8f73730" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7</generator>
+  <activeNode nodeId="node-0x55d4e8f73730"/>
+  <item nodeId="node-0x55d4e8f73730">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+Stack Kingdom
+An Interactive Fiction by The Open Up Team
+Release 1 / Serial number 220913 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+The Red Mountaintop
+You are at the summit at the top of the magical Red Mountain, home of the Red Wizard. You feel a strong presence of energy beneath your feet.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55d4e8f738b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55d4e8f738b0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">The Red Mountaintop
+You are at the summit at the top of the magical Red Mountain, home of the Red Wizard. You feel a strong presence of energy beneath your feet.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55d4e8f73a30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55d4e8f73a30">
+    <command xml:space="preserve">look around</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55d4e8f73bb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55d4e8f73bb0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+RedMountainPass
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55d4e8f73d30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55d4e8f73d30">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">RedMountainPass
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55d4e8f73eb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55d4e8f73eb0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+RedMountaintop
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55d4e9560130"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55d4e9560130">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55d4e95602b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55d4e95602b0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+RedMountainPass
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55d4e9560430"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55d4e9560430">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+</Skein>
