@@ -60,7 +60,35 @@ p {
 	}
 }
 
-@media (max-width: 991px){
+.primary-navigation {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.primary-navigation a {
+	text-decoration: none;
+}
+
+.mobile-nav-toggle {
+	display: none;
+}
+
+.nav-font {
+	font-family: 'RedHatText', sans-serif;
+	font-weight: 500;
+	color: white;
+	background: none;
+	font-size: 1.4em;
+	text-decoration: none;
+	margin-right: 2em;
+}
+
+a:visited {
+	color: white;
+}
+
+/*@media (max-width: 991px){
 	.primary-navigation {
 		position: fixed;
 		inset: 0 0 0 30%;
@@ -93,7 +121,7 @@ p {
 		border: 0;
 		display: block !important;
 	}
-}
+}*/
 
 .ui {
 	font-family: 'RedHatText', "sans-serif";
@@ -326,22 +354,11 @@ color scheme than the bright-blue HTML standard.
 Best color schemes are likely to vary depending on cover art.
 */
 
-a
-{
-	text-decoration: none;
-	color: #369;
+.red {
+	color: #401104;
 }
-
-a:visited
-{
-	text-decoration: none;
-	color: #006;
-}
-
-a:hover
-{
-	text-decoration: none;
-	color: #33C;
+a:hover {
+	color: #e60000 !important; 
 }
 
 .coverimage
@@ -399,8 +416,6 @@ to represent the game, we need only add the line "display: none;" to the
 definition of h1.
 
 */
-h1 { font-size: 2em;  }
-h2 { font-size: 1em; line-height: .25;}
 
 /* The about formatting applies to blurb information. */
 

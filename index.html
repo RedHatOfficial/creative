@@ -20,6 +20,7 @@
     <script src="interpreter/glkote.min.js" type="text/javascript"></script>
     <script src="interpreter/quixe.min.js" type="text/javascript"></script>
     <script src="interpreter/resourcemap.js" type="text/javascript"></script>
+    <script src="interpreter/nav.js" type="text/javascript" defer></script>
 
     <script type="text/javascript">
       game_options = {
@@ -40,8 +41,16 @@
 
     <header class="primary-header flex">
       <div class="site-logo">
-        <img src="images/compiler-logo-final-html.png" width="150">
+        <a src="index.html"><img src="images/compiler-logo-final-html.png" width="150"></a>
       </div>
+
+      <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"><span class="sr-only"></span></button>
+
+      <nav>
+        <ul id="primary-navigation" class="primary-navigation flex" data-visible="false">
+          <li><a class="nav-font" href="game.html">Play Game</a></li>
+        </ul>
+      </nav>
     </header>
 
     <!-- Main Content -->
@@ -61,7 +70,7 @@
 		      </div>
       </section>
 
-      <section class="heroTest no-colour">
+     <!-- <section class="heroTest no-colour">
         <div class="glass static">
             <div class="container">
               <div id="gameport">
@@ -82,7 +91,7 @@
             </div>
                 <div class="interpretercredit"><a href="http://eblong.com/zarf/glulx/quixe/">Quixe for Inform 7 (v. 2.1.2)</a></div>            </div>  
         </div>
-      </section>
+      </section> -->
 	  
     </main>
 
