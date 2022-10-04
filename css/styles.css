@@ -49,6 +49,14 @@ p {
 	font-size: 5em;
 }
 
+li {
+	margin-right: 2em;
+}
+
+.ui .red .button {
+	font-family: RedHatText, "sans-serif" !important;
+}
+
 @media (max-width: 786px) {
 	.c-title {
 		padding-bottom: 10px;
@@ -81,7 +89,6 @@ p {
 	background: none;
 	font-size: 1.4em;
 	text-decoration: none;
-	margin-right: 1em;
 }
 
 a:visited {
@@ -354,9 +361,6 @@ color scheme than the bright-blue HTML standard.
 Best color schemes are likely to vary depending on cover art.
 */
 
-.red {
-	color: #401104;
-}
 a:hover {
 	color: #e60000 !important; 
 }
