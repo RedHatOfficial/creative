@@ -1,0 +1,38 @@
+! Blurb file created by Inform build 6M62
+
+status "/app/share/gnome-inform7/Miscellany/CblorbModel.html" "/home/duffy/Documents/Projects/Inform7/Stack Kingdom.inform/Build/StatusCblorb.html"
+
+
+! Identification
+
+project folder "/home/duffy/Documents/Projects/Inform7/Stack Kingdom.inform"
+release to "/home/duffy/Documents/Projects/Inform7/Stack Kingdom.materials/Release"
+
+! Blorb instructions
+
+storyfile leafname "Stack Kingdom.gblorb"
+storyfile "/home/duffy/Documents/Projects/Inform7/Stack Kingdom.inform/Build/output.ulx" include
+ifiction "/home/duffy/Documents/Projects/Inform7/Stack Kingdom.inform/Metadata.iFiction" include
+cover "/app/share/gnome-inform7/Miscellany/Cover.jpg"
+picture 1 "/app/share/gnome-inform7/Miscellany/Cover.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "2DF8ADEA-33CE-11ED-A58B-D5EE4E105425"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2022"
+placeholder [TITLE] = "Stack Kingdom"
+placeholder [AUTHOR] = "The Open Up Team"
+placeholder [BLURB] = "A work of interactive fiction."
+
+! Other material to release
+
+status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc403.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a website'&nbsp;<a href=inform:/doc405.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with an interpreter', for in-browser play on your website&nbsp;<a href=inform:/doc406.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
