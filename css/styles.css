@@ -51,6 +51,11 @@ p {
 
 li {
 	margin-right: 2em;
+	font-family: 'RedHatText', sans-serif;
+	font-size: 2.2em;
+	margin: 0 20px;
+	text-align: justify;
+	color: #401104;
 }
 
 .ui .red .button {
@@ -605,11 +610,13 @@ bullets because this tends to produce considerable visual clutter especially
 with large project files. 
 */
 
+/*
 .source li
 {
 	list-style-type: none;
 	list-style-position: default;
 }
+*/
 
 /* 
 Notes applies to footnotes on the source text. 
